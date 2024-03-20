@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Build') {
             steps {
                 echo '------------starting--------------------'
             }
         }
         
-        stage('downloadFromGit') {
+        stage('Run') {
             steps {
                 echo 'Download source from git'
                 echo 'Downloaded successfull'
