@@ -11,7 +11,6 @@ pipeline {
         stage('downloadFromGit') {
             steps {
                 echo 'Download source from git'
-                git 'https://github.com/tagoremithun/devops-learning-exercise.git'
                 echo 'Downloaded successfull'
             }
         }
